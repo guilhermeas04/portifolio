@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import "./Header.css";
 import FadeInWrapper from "../../components/FadeInWrapper";
 import { useLanguage } from "../../hooks/useLanguage";
-import HeaderIcon from "../../assets/HeaderIcon.png";
+// import HeaderIcon from "../../assets/HeaderIcon.png";
 
 function Header() {
   const { t, language, toggleLanguage } = useLanguage();
