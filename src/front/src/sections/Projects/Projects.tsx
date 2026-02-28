@@ -6,7 +6,7 @@ import SFLogo from '../../assets/SFLogo.png';
 import villaPisani from '../../assets/villapisani.gif';
 import SGchamados from '../../assets/chamados.gif';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaDocker,FaJava, FaPython, FaAws} from 'react-icons/fa';
-import { SiSpringboot, SiC, SiApachemaven,SiAngular,SiMysql,SiMui, SiPrimeng, SiTailwindcss, SiDjango} from 'react-icons/si';
+import { SiSpringboot, SiC, SiApachemaven,SiAngular,SiMui, SiPrimeng, SiTailwindcss, SiDjango} from 'react-icons/si';
 import { VscAzure } from "react-icons/vsc";
 import { GrMysql } from "react-icons/gr";
 import VazTech from '../../assets/vaztech.gif';
