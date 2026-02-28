@@ -1,15 +1,7 @@
 # Portfólio - Projeto de Software Lab 1
 
-# Integrantes do Projeto
-- Djair Augusto Galdino Soares
-- Guilherme de Almeida Santos
-- Guilherme Henrique Siqueira de Lana
-- Pedro Rodrigues Duarte
-## Descrição do Projeto
 Este projeto é uma **Single Page Application (SPA)** desenvolvida para apresentar um portfólio profissional, integrando um back-end em **Node.js** para gerenciamento de dados.  
 O site reúne informações sobre experiências e projetos realizados, além de oferecer um canal de contato direto.  
-
-Este projeto está sendo desenvolvido **em grupo** como parte da disciplina **Projeto de Software**, referente ao **4º período** do curso **Engenharia de Software**, **turno noturno**.
 
 ---
 
