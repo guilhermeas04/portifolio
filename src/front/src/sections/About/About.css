@@ -26,7 +26,10 @@
     font-size: 1.1rem;
     line-height: 1.6;
     color: #dad9d7;
+      text-align: justify;
+
   }
+
   
   .about-overlay-box {
     position: absolute;

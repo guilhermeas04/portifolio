@@ -115,6 +115,9 @@
   margin: 16px 0 8px 0;
   color: #dad9d7;
 }
+.timeline-step p {
+  text-align: justify;
+}
 
 /* Responsividade */
 @media screen and (max-width: 768px) {

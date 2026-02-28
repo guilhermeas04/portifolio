@@ -16,7 +16,7 @@ const ptTranslations: Translations = {
   about: {
     title: "SOBRE MIM",
     description:
-      "Sou Guilherme Santos, estudante de Engenharia de Software na PUC Minas, com foco em desenvolvimento full stack, com maior afinidade pelo back-end. Tenho experiência em linguagens como Java, C++, JavaScript e PHP, além de conhecimentos em HTML, CSS, SQL, Git e Docker. Também já desenvolvi projetos com Spring Boot, React, Angular, Laravel e Bootstrap, o que me proporcionou uma visão ampla sobre diferentes arquiteturas e tecnologias do mercado. No âmbito pessoal, sou apaixonado por esportes, especialmente futebol, sendo um torcedor fanático do Atlético Mineiro. Além disso, gosto muito de música e considero meu gosto bastante eclético.",
+      "Sou Guilherme Santos, estudante de Engenharia de Software na PUC Minas, com foco em desenvolvimento full stack e maior afinidade pelo back-end. Possuo sólida experiência com linguagens como Java, C++, C#, JavaScript, PHP e Python, além de conhecimentos em HTML, CSS, SQL, Git e Docker. Tenho especialidade no desenvolvimento, consumo e manutenção de APIs RESTful, atuando na modelagem de endpoints, implementação de autenticação e autorização (JWT e OAuth), versionamento de APIs, integração entre sistemas, tratamento de erros, validação de dados e documentação utilizando Swagger/OpenAPI. Ao longo da minha trajetória, desenvolvi projetos com Spring Boot, React, Angular, Laravel, Bootstrap e Django, o que me proporcionou uma visão ampla sobre diferentes arquiteturas e tecnologias do mercado, sempre aplicando boas práticas de programação orientada a objetos, versionamento de código e metodologias ágeis.",
   },
   experience: {
     title: "EXPERIÊNCIAS",
@@ -59,15 +59,13 @@ const enTranslations: Translations = {
     contactMe: "Contact Me →",
   },
   hero: {
-    title: "Djair Augusto",
-    subtitle: "Project manager and Front-end developer",
+    title: "Guilherme Santos",
+    subtitle: "Software Engineer and Full Stack Developer",
     scrollDown: "Learn More ↓",
   },
   about: {
     title: "ABOUT ME",
-    description:
-      "I'm Guilherme Santos, a Software Engineering student at PUC Minas, focused on full stack development, with a stronger affinity for back-end. I have experience in languages such as Java, C++, JavaScript and PHP, as well as knowledge in HTML, CSS, SQL, Git, and Docker. I have also developed projects using Spring Boot, React, Angular, Laravel, and Bootstrap, which has given me a broad understanding of different architectures and market technologies. In my personal life, I am passionate about sports, especially football/soccer, and a huge Atlético Mineiro fan. I also  enjoy music and consider my taste to be very eclectic.",
-  },
+    description: "I am Guilherme Santos, a Software Engineering student at PUC Minas, focused on full-stack development with a stronger affinity for back-end. I have solid experience with languages such as Java, C++, C#, JavaScript, PHP, and Python, as well as knowledge of HTML, CSS, SQL, Git, and Docker. I specialize in the development, consumption, and maintenance of RESTful APIs, working on endpoint modeling, authentication and authorization implementation (JWT and OAuth), API versioning, system integration, error handling, data validation, and documentation using Swagger/OpenAPI. Throughout my journey, I have developed projects using Spring Boot, React, Angular, Laravel, Bootstrap, and Django, which has given me a broad perspective on different architectures and technologies in the market, always applying best practices in object-oriented programming, code versioning, and agile methodologies."  },
   experience: {
     title: "EXPERIENCE",
     techCorp: {

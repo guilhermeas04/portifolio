@@ -5,8 +5,14 @@ import { useLanguage } from "../../hooks/useLanguage";
 import SFLogo from '../../assets/SFLogo.png';
 import villaPisani from '../../assets/villapisani.gif';
 import SGchamados from '../../assets/chamados.gif';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaDocker,FaJava   } from 'react-icons/fa';
-import { SiSpringboot, SiC, SiApachemaven,SiAngular,SiMysql,SiMui  } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaDocker,FaJava, FaPython, FaAws} from 'react-icons/fa';
+import { SiSpringboot, SiC, SiApachemaven,SiAngular,SiMysql,SiMui, SiPrimeng, SiTailwindcss, SiDjango} from 'react-icons/si';
+import { VscAzure } from "react-icons/vsc";
+import { GrMysql } from "react-icons/gr";
+import VazTech from '../../assets/vaztech.gif';
+import HelpClass from '../../assets/helpclass.png';
+
+
 
 type Project = {
   year: string;
@@ -37,7 +43,6 @@ function Projects() {
         : `Sistema para gestão de condomínios residenciais, focado em comunicação eficiente, automação de tarefas administrativas e uso das áreas comuns. Interface simples e intuitiva para administração e moradores.`,
       image: villaPisani,
       languages: ["Docker", "Angular", "HTML", "CSS", "JavaScript"],
-      // repo: "https://github.com/DjairAugusto/CIT"
     },
     {
       year: "2025",
@@ -47,7 +52,24 @@ function Projects() {
         : `Sistema desenvolvido para otimizar o fluxo de trabalho de suporte em uma organização. Ele automatiza a gestão de solicitações, permitindo que usuários de diferentes perfis abram, acompanhem e fechem chamados de forma eficiente. O sistema não apenas agiliza a comunicação, mas também coleta dados estratégicos sobre o tempo de resolução e a satisfação do usuário. Isso oferece insights valiosos para a melhoria contínua dos serviços e a otimização da produtividade.`,
       image: SGchamados,
       languages: ["React","MUI","Spring Boot","MySQL"],
-      // repo: "https://github.com/DjairAugusto/Hotelem"
+    },
+    {
+      year: "2025",
+      title: language === "en" ? "VazTech" : "VazTech",
+      description: language === "en"
+        ? `VazTech is a complete commercial management application developed to automate and optimize the processes of a store specialized in Apple products (MacBook, iPhone, Apple Watch). The system replaced manual controls previously handled in Excel spreadsheets, providing a professional and integrated solution for managing purchasing and sales operations, inventory control, repair and maintenance services, customer and supplier management, financial control, and managerial reporting. The application was built with a modern architecture, using Angular on the front end and Spring Boot on the back end, with JWT authentication and an Azure SQL Server database.`
+        : `O VazTech é uma aplicação de gestão comercial completa desenvolvida para automatizar e otimizar processos de uma loja especializada em produtos Apple (MacBook, iPhone, Apple Watch). O sistema substituiu controles manuais realizados em planilhas Excel, oferecendo uma solução profissional e integrada para gerenciamento de operações de compra e venda, controle de estoque, serviços de reparo e manutenção, gestão de clientes e fornecedores, controle financeiro e relatórios gerenciais. A aplicação foi desenvolvida com arquitetura moderna, utilizando Angular no front-end e Spring Boot no back-end, com autenticação JWT e banco de dados Azure SQL Server.`,
+      image: VazTech,
+      languages: ["Angular","Java","Spring Boot","Azure","PrimeNG","Tailwind"],
+    },
+    {
+      year: "2025",
+      title: language === "en" ? "HelpClass" : "HelpClass",
+      description: language === "en"
+        ? `HelpClass is a complete private tutoring management platform developed to facilitate interaction between teachers and students, promoting a more organized, personalized, and efficient learning experience.`
+        : `HelpClass é uma plataforma completa de gerenciamento de aulas particulares desenvolvida para facilitar a interação entre professores e alunos, promovendo uma educação mais organizada, personalizada e eficiente.`,
+          image: HelpClass,
+      languages: ["React","Python","Django","Tailwind","AWS","MySQL","Docker"],
     }
   ];
   const [visible, setVisible] = useState(Array(projects.length).fill(false));
@@ -159,11 +181,18 @@ function Projects() {
                     {lang === 'Maven' && <SiApachemaven style={{ color: '#C71A36' }} />}
                     {lang === 'React' && <FaReact style={{ color: '#61dafb' }} />}
                     {lang === 'Angular' && <SiAngular  style={{ color: '#DD0031' }} />}
-                    {lang === "MySQL" && <SiMysql style={{ color: '#4479A1' }} /> }
+                    {/* {lang === "MySQL" && <SiMysql style={{ color: '#4479A1' }} /> } */}
+                    {lang === "MySQL" && <GrMysql style={{ color: '#4479A1' }} /> }
                     {lang === "MUI" && <SiMui  style={{ color: '#007FFF' }} /> }
                     {lang === 'Docker' && <FaDocker style={{ color: '#2496ed' }} />}
                     {lang === 'Spring Boot' && <SiSpringboot style={{ color: '#6db33f' }} />}
                     {lang === 'C' && <SiC style={{ color: '#A8B9CC' }} />}
+                    {lang === 'Azure' && <VscAzure style={{ color: '#0078D4' }} />}
+                    {lang === 'PrimeNG' && <SiPrimeng style={{ color: '#DD0031' }} />}
+                    {lang === 'Tailwind' && <SiTailwindcss style={{ color: '#38BDF8' }} />}
+                    {lang === 'Python' && <FaPython style={{ color: '#3776AB' }} />}
+                    {lang === 'AWS' && <FaAws style={{ color: '#FF9900' }} />}
+                    {lang === 'Django' && <SiDjango style={{ color: '#6db33f' }} />}
                     <span style={{ color: '#dad9d7', marginLeft: 2 }}>{lang}</span>
                   </span>
                 ))}
