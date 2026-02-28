@@ -29,7 +29,7 @@ function Contact() {
             </li>
             <li>
               <HiOutlineMail size={28} />
-              <a >Email - guilhermesantos_@outlook.com</a>
+              <a >Email - guialmsantos@gmail.com</a>
             </li>
             <li>
               <FaGithub size={28} />

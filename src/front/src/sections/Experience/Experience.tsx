@@ -3,6 +3,9 @@ import FadeInWrapper from "../../components/FadeInWrapper";
 import { useLanguage } from "../../hooks/useLanguage";
 import { SiPhp, SiHtml5, SiCss3, SiJavascript,SiMysql } from 'react-icons/si';
 import hinovaLogo from "../../assets/logo-hinova.png";
+import { BsBootstrap } from "react-icons/bs";
+import { GrMysql } from "react-icons/gr";
+
 
 // Ajuste o tipo Technology para usar React.ReactNode
 export type Technology = {
@@ -81,7 +84,9 @@ function Experience() {
             { name: "HTML", icon: <SiHtml5 style={{ color: '#E34F26' }} /> },
             { name: "CSS", icon: <SiCss3 style={{ color: '#1572B6' }} /> },
             { name: "JavaScript", icon: <SiJavascript style={{ color: '#F7DF1E' }} /> },
-            { name: "MySQL", icon: <SiMysql style={{ color: '#4479A1' }} /> }
+            { name: "MySQL", icon: <GrMysql style={{ color: '#4479A1' }} /> },
+            { name: "Bootstrap", icon: <BsBootstrap style={{ color: '#7952B3' }} /> }
+
           ],
           image: hinovaLogo,
         },
